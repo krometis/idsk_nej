@@ -1,5 +1,5 @@
 # R Shiny IDSK Exemplar
-Repository for the Integrated Decision Support Key (IDSK) exemplar developed in R Shiny, as described in the Naval Engineers Journal "FILL IN" by Kelli Esser, Daniel Wolodkin, FILL IN AUTHORS.
+Repository for the Integrated Decision Support Key (IDSK) exemplar developed in R Shiny, as described in the Naval Engineers Journal article "FILL IN TITLE" by FILL IN AUTHORS.
 
 ## Setup
 One-time setup to run the app for the first time:
