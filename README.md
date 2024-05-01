@@ -3,9 +3,10 @@ Repository for the Integrated Decision Support Key (IDSK) exemplar developed in 
 
 ## Setup
 One-time setup to run the app for the first time:
-1. Download and install R and [RStudio](https://posit.co/download/rstudio-desktop/) for free online
-2. Open RStudio
-3. Install the packages required for the functionality of the app by running the following command in the RStudio console:
+1. Download the app and supporting files, e.g., by running `git clone git@github.com:krometis/idsk_nej.git` from the command line or downloading the zip file (see the green Code button at top right) and unzipping the contents. You should see both the app (`app.R`) and supporting files (`data` directory, `DataClean.R`, etc).
+2. Download and install R and [RStudio](https://posit.co/download/rstudio-desktop/) for free online
+3. Open RStudio
+4. Install the packages required for the functionality of the app by running the following command in the RStudio console:
 ```{r}
 options(repos = c(CRAN = "http://cran.us.r-project.org"))
 install.packages(c("shiny", "shinythemes", "DT", "readxl", "tidyverse", "dplyr", "lubridate", "naniar"))
